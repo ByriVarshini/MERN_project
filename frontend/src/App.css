@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6; /* light gray background */
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto; /* centers the container */
+  padding: 24px;
+  background-color: #ffffff; /* white card-like background */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #4f46e5;
+}
+.navbar {
+  background-color: #4f46e5;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  opacity: 0.85;
+}
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.form-input, select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.form-input:focus, select:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 5px rgba(79,70,229,0.3);
+}
+
+.button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: #4338ca;
+}
+
+.button-danger {
+  background-color: #dc2626;
+}
+
+.button-danger:hover {
+  background-color: #b91c1c;
+}
+.card {
+  background-color: #f9fafb; /* slightly off-white */
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.card h3 {
+  margin: 0;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.card p {
+  margin: 4px 0;
+  color: #374151;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.card-buttons .button {
+  margin-left: 8px;
+}
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button, .button-danger {
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.button:hover, .button-danger:hover {
+  transform: translateY(-2px);
+}
+/* nice thin scrollbar for container or page */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 4px;
+}
+.container {
+  padding: 16px; /* smaller on mobile */
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 24px; /* larger on desktop */
+  }
+}
+.card {
+  margin-bottom: 20px;
+}
+/* Add this to your App.css for a nice form UI */
+
+/* Form container */
+.form-container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 32px 24px;
+  max-width: 400px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Form labels */
+.form-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+/* Inputs and select */
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1em;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #f6f8fa;
+  color: #222;
+  margin-bottom: 12px;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus,
+.form-select:focus {
+  border-color: #4f46e5;
+  outline: none;
+}
+
+/* Button */
+.form-button {
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.form-button:hover {
+  background-color: #4338ca;
+}

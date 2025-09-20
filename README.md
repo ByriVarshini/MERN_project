@@ -29,8 +29,3 @@ It allows users to **add, view, edit, and delete transactions**, as well as see 
 - **Backend**: Node.js, Express.js  
 - **Database**: MongoDB (via Mongoose)  
 - **API**: RESTful endpoints
-
-
-   git clone <your-repo-url>
-   cd FinTrack
-# MERN_project
